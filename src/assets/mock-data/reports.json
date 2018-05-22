@@ -1,0 +1,21 @@
+
+{
+  "reports":
+    [
+      {
+        "icon": "binoculars",
+        "iconTitle": "Tab 1",
+        "url": "/reports/tab1"
+      },
+      {
+        "icon": "calendar",
+        "iconTitle": "Tab 2",
+        "url": "/reports/tab2"
+      },
+      {
+        "icon": "building",
+        "iconTitle": "Tab 3",
+        "url": "/reports/tab3"
+      }
+    ]
+}

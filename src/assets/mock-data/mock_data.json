@@ -1,0 +1,7 @@
+{
+  "left_nav_content": [
+    { "id": "monitoring" },
+    { "id": "reports" },
+    { "id": "transactions" }
+  ]
+}

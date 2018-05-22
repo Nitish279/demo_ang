@@ -1,0 +1,9 @@
+{
+  "transactions": [
+      {
+        "icon": "binoculars",
+        "iconTitle": "Tab 1",
+        "url": "/transactions/tab1"
+      }
+    ]
+}

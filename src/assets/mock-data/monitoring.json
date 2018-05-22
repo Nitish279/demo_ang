@@ -1,0 +1,44 @@
+{
+  "monitoring": [
+          {
+            "icon": "car",
+            "iconTitle": "OneSpace",
+            "url": "/monitoring/onespace"
+          },
+          {
+            "icon": "binoculars",
+            "iconTitle": "Productivity",
+            "url": "/monitoring/productivity"
+          },
+          {
+            "icon": "calendar",
+            "iconTitle": "Communications",
+            "url": "/monitoring/communications"
+          },
+          {
+            "icon": "building",
+            "iconTitle": "Collaboration",
+            "url": "/monitoring/collaboration"
+          },
+          {
+            "icon": "file",
+            "iconTitle": "News",
+            "url": "/monitoring/news"
+          },
+          {
+            "icon": "cart-arrow-down",
+            "iconTitle": "Projects",
+            "url": "/monitoring/projects"
+          },
+          {
+            "icon": "plane",
+            "iconTitle": "Analytics",
+            "url": "/monitoring/analytics"
+          },
+          {
+            "icon": "check",
+            "iconTitle": "Approvals",
+            "url": "/monitoring/approvals"
+          }
+      ]
+}
