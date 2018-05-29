@@ -43,10 +43,7 @@ import { TransactionsTab1Component } from './shared/layout/main-content/transact
 
 
 const rootRouting: ModuleWithProviders = RouterModule.forRoot([
-  {
-    path: '',
-    component: AppComponent
-  },
+
   {
     path: 'monitoring',
     component: MonitoringComponent,
@@ -113,7 +110,7 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([
         }
       ]
   }
-], { useHash: true });
+], { useHash: false });
 
 @NgModule({
   declarations: [

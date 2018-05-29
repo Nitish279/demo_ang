@@ -4,6 +4,7 @@ import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
+import { ActivatedRoute, Routes, Router } from '@angular/router';
 
 @Component({
   selector: 'app-sub-header',
@@ -12,8 +13,8 @@ import 'rxjs/add/operator/catch';
 })
 export class SubHeaderComponent implements OnInit {
   public subHeaderData: any;
-  constructor(private http: Http) {
-    var obj;
+  constructor(private http: Http, private _router: Router) {
+    let obj;
     this.getJSON().subscribe(data => {
       obj = data;
       this.subHeaderData = obj.left_nav_content;
@@ -27,6 +28,7 @@ public getJSON(): Observable<any> {
 }
 
   ngOnInit() {
+    this._router.navigate(['/monitoring/onespace']);
   }
   // transformLeftNavData = (event: any) => {
   //   console.log(event);
